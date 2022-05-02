@@ -1,0 +1,209 @@
+@media(max-width: 480px){
+    body{
+        margin: 0;
+    }
+    .head{
+        background-color:rgb(53, 53, 53);
+      display: flex; 
+      border-radius: 5px;
+      justify-content: space-between;
+      align-items: center;
+      color: #fff;
+    }
+    .head ul{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .head li{
+        list-style: none;
+        
+    }
+    .head a{
+       text-decoration: none;
+       color: #fff;
+       margin: 0 10px 0 10px;
+       
+    }
+   .head a:hover{
+       
+        border-bottom: 3px solid red;
+    }
+    .head h3{
+        margin: 0 0 0 10px;
+    }
+    main{
+        font-size: 1.2rem;
+        display: grid;
+        margin: 65px 45px;
+        line-height: 1.6;
+    }
+    main p{
+        text-align: center;
+        text-decoration: underline;
+    }
+    .container{
+        margin: 0;
+        display: grid;
+        padding: 55px 20px;
+        color: #fff;
+        background-image: url("cool.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.8;
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        
+    }
+    .footer p{
+        text-align: center;
+    }
+    footer p{
+        text-align: center;
+    }
+    .btn{
+       margin:  0 130px;
+    }
+   footer .twit{
+     background-color: #00ACEE;
+     border: none;
+     border-radius: 3px;
+   }
+   footer .git{
+    background-color: #333;
+    border:none;
+    border-radius: 3px;
+   
+  }
+  footer .Insta{
+    background-color: #8a3ab9;
+    border: none;
+    border-radius: 3px;
+  } 
+  .btn{
+    display: grid;
+    padding: 5px -10px;
+    grid-gap:3px; 
+  } 
+   .btn a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+   padding: 10px 20px;
+   }
+   .foot{
+       background-color:#999;
+       color:#fff;
+   }
+   
+}
+/*tablets and laptops*/
+@media(max-width:1440px){
+    body{
+        margin: 0;
+    }
+    .head{
+        background-color:rgb(53, 53, 53);
+      display: flex; 
+      border-radius: 5px;
+      justify-content: space-between;
+      align-items: center;
+      color: #fff;
+    }
+    .head ul{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .head li{
+        list-style: none;
+        
+    }
+    .head a{
+       text-decoration: none;
+       color: #fff;
+       margin: 0 10px 0 10px;
+       
+    }
+   .head a:hover{
+       
+        border-bottom: 3px solid red;
+    }
+    .head h3{
+        margin: 0 0 0 10px;
+    }
+    main{
+        font-size: 1.2rem;
+        display: grid;
+        margin: 65px 45px;
+        line-height: 1.6;
+    }
+    main p{
+        text-align: center;
+        text-decoration: underline;
+    }
+    .container{
+        margin: 0;
+        display: grid;
+        padding: 55px 20px;
+        color: #fff;
+        background-image: url("cool.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        opacity: 0.8;
+        line-height: 1em;
+    }
+   
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+       
+        
+    }
+    .footer p{
+        text-align: center;
+       
+    }
+    footer p{
+        text-align: center;
+    }
+    .btn{
+       margin:  0 130px;
+    }
+   footer .twit{
+     background-color: #00ACEE;
+     border: none;
+     border-radius: 3px;
+   }
+   footer .git{
+    background-color: #333;
+    border:none;
+    border-radius: 3px;
+   
+  }
+  footer .Insta{
+    background-color: #8a3ab9;
+    border: none;
+    border-radius: 3px;
+  }
+  .btn{
+    display: grid;
+    padding: 5px -10px;
+    grid-gap:3px; 
+  } 
+   .btn a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+ 
+   }
+   .foot{
+       background-color:#999;
+       color:#fff;
+       padding: 20px;
+   }
+}
